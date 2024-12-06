@@ -1,0 +1,240 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
+
+## Colors
+
+### Primary
+
+- Soft orange: hsl(35, 77%, 62%)
+- Soft red: hsl(5, 85%, 63%)
+
+### Neutral
+
+Off-white: hsl(36, 100%, 99%)
+Grayish blue: hsl(233, 8%, 79%)
+Dark grayish blue: hsl(236, 13%, 42%)
+Very dark blue: hsl(240, 100%, 5%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Inter](https://fonts.google.com/specimen/Inter)
+- Weights: 400, 700, 800 */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 15px;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Inter", serif;
+    max-width: 60%;
+    margin: 80px auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-menu ul{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5em;
+    color: hsl(236, 13%, 42%);
+}
+
+ul li{
+    list-style-type: none;
+}
+
+ul li:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+.main {
+    max-width: 72%;
+}
+
+.main img {
+    max-width: 100%;
+    margin: 50px 0 25px 0;
+}
+
+.h1-text-btn {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 1rem; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    /* max-width: 69%; */
+    
+    /* background-color: aquamarine; */
+}
+
+h1 {
+    font-size: 56px;
+    margin-top: 0;
+    max-width: 100%;
+    color: hsl(240, 100%, 5%);
+}
+
+.main-text {
+    line-height: 30px;
+    margin-right: 60px;;
+    color: hsl(236, 13%, 42%);
+}
+
+button {
+    font-weight: 800;
+    margin-top: 25px;
+    letter-spacing: 4px;
+    padding:15px 30px;
+    border: none;
+    color: hsl(240, 100%, 5%);
+    background-color: hsl(5, 85%, 63%);
+}
+
+button:hover {
+    color: hsl(36, 100%, 99%);
+    background-color: hsl(240, 100%, 5%);
+}
+
+.main-aside-container {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+}
+
+.right-column {
+    max-width: 30%;
+    background-color: bisque;
+    margin-top: 50px;
+    margin-left: 25px;
+    border: 1px solid black;
+    /* border-right: 30px; */
+    padding: 10px 20px;
+    background-color: hsl(240, 100%, 5%);
+}
+
+h2 {
+    margin: 20px 0;
+    font-size: 32px;
+    color: hsl(35, 77%, 62%);
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    justify-content: center;
+    line-height: 25px;
+    color: hsl(36, 100%, 99%);
+}
+
+.no-border-article h3 {
+    color: hsl(36, 100%, 99%);
+}
+
+.no-border-article p {
+    padding-top: .5rem;
+}
+
+.article h3 {
+    padding-bottom: 8px;
+}
+
+h3:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+.article p {
+    color: hsl(233, 8%, 79%);
+    border-bottom: 1px solid hsl(233, 8%, 79%);
+}
+
+.no-border-article {
+    color: hsl(233, 8%, 79%);
+}
+
+.container-cards {
+    display: flex;
+    /* grid-template-columns: auto auto auto; */
+    justify-content: space-between;
+    /* background-color:aqua; */
+    margin-top: 50px;
+    & container-cards:last-child {
+        margin-left: 100px;
+    }
+    /* max-width: 100%; */
+}
+
+.cards-1 {
+    display: flex;
+}
+
+.cards-2 {
+    display: flex;
+}
+
+.cards-3 {
+    display: flex;
+}
+
+.cards-img {
+    max-width: 30%;
+    margin-bottom: 50px;
+    /* display: flex; */
+}
+
+.cards-text {
+    display: block;
+    justify-content: center;
+    /* flex-direction: column; */
+    padding-left: 15px;
+    line-height: 30px;
+}   
+
+.cards-text p {
+    color: hsl(236, 13%, 42%);
+}
+
+.container-cards h3 {
+    color:hsl(5, 85%, 63%);
+    font-size: 26px;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+.container-cards h4 {
+   color: hsl(240, 100%, 5%);
+   font-size: 16px;
+   padding-bottom: 10px;
+}
+
+h4:hover {
+    color: hsl(5, 85%, 63%);
+}
