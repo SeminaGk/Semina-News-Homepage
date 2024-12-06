@@ -1,0 +1,1 @@
+This is a FrontendMentor challenge. Here's the link: https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl The project is currently unfinished, as it still requires adjustments, a responsive layout, and a mobile version.
